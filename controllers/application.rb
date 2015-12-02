@@ -3,7 +3,7 @@ class ApplicationController < Sinatra::Base
   Bundler.require
 
   ActiveRecord::Base.establish_connection(
-    :database => 'name_of_db',
+    :database => 'tskrrr',
     :adapter => 'postgresql' #unless you're too hip ;)
   )
 

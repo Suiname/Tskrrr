@@ -2,7 +2,7 @@
 
 <p>
   Are you sure you want to erase Task # <%= @task.id %>?
-  You only want to check off <em><%= task.name %></em> if it is complete!
+  You only want to check off <em><%= @task.name %></em> if it is complete!
 </p>
 
 <form action="/destroy" method="post">
